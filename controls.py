@@ -6,7 +6,7 @@ a DVR8825 driver and a limit switch to detect the filament.
 import utime
 from machine import Pin  # type: ignore
 
-from DVR8825_Driver import Stepper
+from DVR8825_Driver import Stepper # type: ignore
 
 dir_pin = 4
 step_pin = 5
